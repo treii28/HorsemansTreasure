@@ -18,3 +18,18 @@ LED effects will include 370nm UV lighting which will illuminate UV reactive ink
 Other effects to include frosted smart-material inside the outer glass which will magically 'clear' to reveal the contents, a mist-maker to emulate 'smoke', a fluid sensor that will activate 'dripping' red LEDs when water is added for the mister, UV leds inside the tower (to reveal the inscription on the top of the lantern housing) and along the sides (to show the veins on the skull) and 3W LEDs inside the lid for extra-bright flash and glow effects.
 
 Interfacing may include a wifi web server or possibly a rest server and maybe even Blynk compatibility. The hope is to enable the ability to remotely update the firmware over the internet when needed, allow some level of modification to the audio files and various effects, possibly even alter/update the voice recognition settings, and if possible, include multiple modes. (one for the main book effects and a few others for interactivity or just a 'fun' version for laughs)
+
+
+File info:
+  Main program code:
+    main.cpp
+  Pin and global definitions:
+    misc_defaults.h
+
+  Modified version of the I2S output from ESP8266 audio to allow reading an envelope value representing a running average of the output on both channels. (used to get make the eyes glow and mouth move as the sounds play)
+    AudioOutputI2SAve.cpp
+    AudioOutputI2SAve.h
+
+  Beginnings of importing the EasyVR voice command code:
+    easyvr_defs.h
+
