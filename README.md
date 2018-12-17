@@ -1,5 +1,5 @@
 # HorsemansTreasure
-ESP32 project to bring Richard Gleave's Headless Horseman reliquary to life
+ESP32 project to bring Richard Gleaves's Headless Horseman reliquary to life
 
 The reliquary in the book(s) consisted of an antique, gilded lantern that contained the severed head of the headless horseman. Enchanted by witchcraft, the person possessing the lantern could speak magic words while making a blood sacrifice and it would become activated doing a number of supernatural effects such as glowing and speaking, pulsing blood across the outside through veins, and glowing letters would appear inscribed in the top.
 The lantern would 'offer' a spike out of the top to help facilitate the sacrifice and when really empowered would glow exceptionally bright. Initially, the glass was cloudy in part due to age. But as the power would rise, the glass would become clearer revealing the head inside.
